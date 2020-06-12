@@ -1813,7 +1813,7 @@
 /* Box */
 
 	.box {
-		background: rgba(0, 0, 0, 0.5);
+		/* background: rgba(0, 0, 0, 0.5); */
 		border-radius: 4px;
 		margin-bottom: 2em;
 		overflow: hidden;
@@ -3631,12 +3631,14 @@
 			font-family: "Lobster", cursive;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
-			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+			color: white;
+			/* text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125); */
 			text-transform: none;
 		}
 
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
+			color: white;
 			font-size: 1.75em;
 		}
 
@@ -4458,6 +4460,6 @@
 	height: 100px;
 }
 
-.bg-img {
+.hm-1 {
 	background: #65B7FF;
 }

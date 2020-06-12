@@ -3786,7 +3786,10 @@
 			}
 
 				#banner h1 {
-					font-size: 6em;
+					font-size: 5em;
+				}
+				#banner p {
+					font-size: 16px;
 				}
 
 		}
@@ -3799,6 +3802,10 @@
 
 			#banner .more {
 				display: none;
+			}
+
+			#banner p {
+				font-size: 12px;
 			}
 
 		}

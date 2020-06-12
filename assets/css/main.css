@@ -4476,3 +4476,14 @@
 .hm-1 {
 	background: #65B7FF;
 }
+
+#roboto {
+	font-family: 'Roboto Slab', serif !important; 
+	font-size: 60px;
+}
+
+#Odibee {
+	font-family: 'Odibee Sans', cursive !important; 
+	font-size: 60px;
+}
+

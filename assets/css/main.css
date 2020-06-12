@@ -3747,7 +3747,7 @@
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #000;
+			/* background-color: #000; */
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
@@ -4183,7 +4183,7 @@
 		/* background-color: #F64747;
 		color: #fdd1d1; */
 		background: #65B7FF;
-		color: #008000;
+		/* color: #008000; */
 		padding: 6em 0 4em 0;
 	}
 
@@ -4456,4 +4456,8 @@
 .logo-1 {
 	width: 100px;
 	height: 100px;
+}
+
+.bg-img {
+	background: #65B7FF;
 }

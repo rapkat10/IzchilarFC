@@ -3324,14 +3324,15 @@
 
 	#header {
 		background-color: transparent;
+		background-color: #65B7FF;
 		color: #fdd1d1;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
 		line-height: 3.25em;
-		position: fixed;
+		/* position: fixed; */
 		text-align: right;
-		top: 1em;
+		top: 10px;
 		width: 100%;
 		z-index: 10001;
 		padding: 0 1.5em;
@@ -3350,7 +3351,9 @@
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: 3%;
+			left: 3%;
+			z-index: 5;
 		}
 
 			#header .logo a {
@@ -3390,6 +3393,9 @@
 				line-height: 2.5em;
 				color: #FFF;
 				text-align: center;
+				position: relative;
+				top: 33%;
+				z-index: 5;
 			}
 
 				#header > a[href="#menu"]:before {
@@ -3449,7 +3455,7 @@
 
 		#header {
 			min-width: 320px;
-			top: 0;
+			top: 3%;
 			font-size: .9em;
 			/* background: rgba(0, 0, 0, 0.9); */
 		}
